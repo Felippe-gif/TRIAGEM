@@ -1,0 +1,22 @@
+# print('\n\t\t --- SISTEMA DE TRIAGEM --- \n')
+
+# perguntas = [
+#     "FEBRE [S/N]: ",
+#     "TOSSE [S/N]: ",
+#     "FALTA DE AR [S/N]: ",
+#     "DOR NO CORPO [S/N]: ",
+#     "CANSAÇO [S/N]: "
+# ]
+
+# respostasL = 0
+# for i in perguntas:
+#     resposta =input(i).strip().upper()
+#     if resposta == 'S':
+#         respostasL += 1
+
+# if 2 <= respostasL <= 3:
+#     print(f'Classificaçao :RISCO MODERADO ({respostasL} SINTOMAS) ')
+# elif 4 <= respostasL <= 5:
+#     print(f'Classificaçao : RISCO ALTO ({respostasL} SINTOMAS)')
+# elif 0 <= respostasL <= 1:
+#     print(f'Classificaçao : BAIXO  ({respostasL} SINTOMAS)')
